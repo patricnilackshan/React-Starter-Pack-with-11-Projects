@@ -1,1 +1,0 @@
-# Basic React C.R.A (create-react-app)
