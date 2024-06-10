@@ -15,7 +15,7 @@ function App() {
     if (options.length > 0) {
       convert();
     }
-  }, [currencyInfo, from, to, amount, options]);
+  }, [currencyInfo, options, from, to, amount]);
 
   const convert = () => {
     setConvertedAmount((amount * currencyInfo[to]).toFixed(2));
@@ -54,7 +54,6 @@ function App() {
               }}
               selectedCurrency={from}
               amountDisabled={false}
-              currencyDisabled={false}
             />
           </div>
 

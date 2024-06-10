@@ -2,6 +2,7 @@ function App() {
   return (
     <div>
       <h1>Hi Everyone, This is Patric!</h1>
+      <h2>Template created using create-react-app</h2>
     </div>
   );
 }

@@ -8,11 +8,9 @@ function InputBox({
   onCurrencyChange,
   selectedCurrency = 'usd',
   amountDisabled = false,
-  currencyDisabled = false,
-  className = '',
 }) {
   return (
-    <div className={`${className} bg-white p-4 rounded-lg text-sm flex flex-col sm:flex-row shadow-md`}>
+    <div className="bg-white p-4 rounded-lg text-sm flex flex-col sm:flex-row shadow-md">
       <div className="w-full sm:w-1/2 sm:pr-2 mb-4 sm:mb-0">
         <label htmlFor="amount" className="text-gray-600 mb-2 inline-block">
           {label}
@@ -40,7 +38,6 @@ function InputBox({
           onChange={(e) => {
             onCurrencyChange && onCurrencyChange(e.target.value);
           }}
-          disabled={currencyDisabled}
         >
           {currencyOptions.map((currency) => (
             <option key={currency} value={currency}>
