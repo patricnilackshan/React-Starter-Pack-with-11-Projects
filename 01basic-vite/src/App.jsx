@@ -1,7 +1,10 @@
 function App() {
 
   return (
-    <h1>Hi Everyone, Patric here...</h1>
+    <div>
+      <h1>Hi Everyone, This is Patric!</h1>
+      <h2>Template created using vite</h2>
+    </div>
   )
 }
 
