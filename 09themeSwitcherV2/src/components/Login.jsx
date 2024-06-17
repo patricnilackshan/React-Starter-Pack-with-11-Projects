@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import useUser from "../context/User";
 
 function Login() {
-  const { user, setUser } = useUser();
+  const { setUser } = useUser();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
