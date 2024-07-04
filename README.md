@@ -3,3 +3,5 @@ A starter project for learning React.js. This project provides a simple setup wi
 ---  
 
 #### project by Patric Nilackshan
+
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=patricnilackshan.React-Starter-Pack-with-11-Projects" />
